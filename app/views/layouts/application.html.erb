@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Authapp</title>
+      <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+      <meta property="og:image" content="https://raw.githubusercontent.com/gonjavi/railsAssociations/master/railsbd1.png" />
+  </head>
+
+  <body>
+    <%= render 'layouts/header' %>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+    
+    </body>
+  <%= render 'layouts/footer' %>
+
+</html>
