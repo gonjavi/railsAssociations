@@ -19,6 +19,6 @@ test:
 
 production:
   <<: *default
-  database: railsAssociations_procution
+  database: railsAssociations_production
   username: railsAssociations
   password: <%= ENV['RAILSASSOCIATIONS_DATABASE_PASSWORD'] %>
