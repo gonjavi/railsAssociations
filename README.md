@@ -1,4 +1,3 @@
-
 ## Rails Associations :diamonds:	
 
 This collaborative project is focused on Associations, as a part of an assignment for Microverse. The project features sessions, associations between users, events, and attendances. Users can create events and register themselves for different events created by any other user.
@@ -15,7 +14,7 @@ This collaborative project is focused on Associations, as a part of an assignmen
  👤 **Daniel alejandro Salgado**
 
 - Github: [@github/alejocode](https://github.com/AlejoCode)
-- Linkedin: [linkedin](https://www.linkedin.com/in/daniel-alejandro-salgado-sanchez-13a740b1/)
+- Linkedin: [@daniel-salgado](https://www.linkedin.com/in/daniel-alejandro-salgado-sanchez-13a740b1/)
 
 
 ## Live Demo
@@ -27,13 +26,13 @@ This collaborative project is focused on Associations, as a part of an assignmen
   Ruby 2.6.3
  ```
  ```bash
-   Ruby on Rails 6.0.1
+   Ruby on Rails 6.0.3.1
  ```
   ```bash
    Html5
  ```
   ```bash
-   CSS3 - scss
+   CSS3 - SCSS
  ```
   ```bash
 Bootstrap
@@ -43,14 +42,16 @@ Bootstrap
   ```
 
 
-## Getting Ruby Set up and necessary gems 
-
-* You would install the latest version of the gems listed in the Gemfile by :
+## Installation
 
 ```bash
 $ bundle install
 ```
-* Migrate the database with by :
+* Create PostgreQSL database:
+```bash
+$ rails db:create
+```
+* Migrate the database:
 ```bash
 $ rails db:migrate
 ```
@@ -74,6 +75,3 @@ Contributions, issues and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-
-
