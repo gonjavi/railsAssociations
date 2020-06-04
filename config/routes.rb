@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
   post   '/attend',  to: 'attendances#create'
-  get    'attendances', to: 'attendances#index'
+  get    'attendances', to: 'attendances#index'  
 end

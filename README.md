@@ -1,79 +1,24 @@
+# README
 
-## Rails Associations :diamonds:	
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-This collaborative project is focused on Associations, as a part of an assignment for Microverse. The project features sessions, associations between users, events, and attendances. Users can create events and register themselves for different events created by any other user.
+Things you may want to cover:
 
+* Ruby version
 
-![screenshot](./railsbd1.png)
+* System dependencies
 
-## Authors:
- 👤 **Gonza Javier Mancilla**
+* Configuration
 
-- Github: [@github/gonjavi](https://github.com/gonjavi)
-- Linkedin: [G-Javier-Mancilla](https://www.linkedin.com/in/g-javier-mancilla-a686a9178/)
+* Database creation
 
- 👤 **Daniel alejandro Salgado**
+* Database initialization
 
-- Github: [@github/alejocode](https://github.com/AlejoCode)
-- Linkedin: [linkedin](https://www.linkedin.com/in/daniel-alejandro-salgado-sanchez-13a740b1/)
+* How to run the test suite
 
+* Services (job queues, cache servers, search engines, etc.)
 
-## Live Demo
+* Deployment instructions
 
-[Live Demo Link]()
-
-## Built With
-```bash
-  Ruby 2.6.3
- ```
- ```bash
-   Ruby on Rails 6.0.1
- ```
-  ```bash
-   Html5
- ```
-  ```bash
-   CSS3 - scss
- ```
-  ```bash
-Bootstrap
-```
-  ```bash
-  PostgresSQL
-  ```
-
-
-## Getting Ruby Set up and necessary gems 
-
-* You would install the latest version of the gems listed in the Gemfile by :
-
-```bash
-$ bundle install
-```
-* Migrate the database with by :
-```bash
-$ rails db:migrate
-```
-* Simply run the app with :
-```bash
-$ rails s
-```
-
-## RSpec Tests
-
-For RSpec testing run the following commands:
-
-- rails db:migrate RAILS_ENV=test
-- rspec --format documentation
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-
-
+* ...
