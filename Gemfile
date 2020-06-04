@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
-gem 'bootstrap-daterangepicker-rails', git: 'https://github.com/jordanbrock/bootstrap-daterangepicker-rails.git', ref: '6cade9deedfca1e6e55ce68b7c828f001e13f995'
+gem 'bootstrap-daterangepicker-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
 # Use sqlite3 as the database for Active Record
