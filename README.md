@@ -19,7 +19,7 @@ This collaborative project is focused on Associations, as a part of an assignmen
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://associations-rails.herokuapp.com/)
 
 ## Built With
 ```bash
